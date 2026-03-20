@@ -1,29 +1,62 @@
 ---
 _schema: default
-title: Why
-description: Learn why this Astro component starter was built and how it helps teams create fast, flexible static sites.
+title: About
+description: Learn about Prism Studio — a creative digital agency that designs and builds extraordinary web experiences.
 pageSections:
   - _component: page-sections/heroes/hero-split
-    eyebrow:
-    heading: Why build an Astro component starter?
+    eyebrow: About Prism Studio
+    heading: We believe in the power of design to transform brands
     subtext: >-
-      At CloudCannon, we're big fans of the static web. And we love what the
-      Astro team is building!
+      Prism Studio was founded on a simple belief: great digital experiences
+      come from the intersection of bold creativity and disciplined craft.
 
 
-      As more and more <a href="https://cloudcannon.com/partner-program/"
-      target="_blank" rel="noopener">partner agencies</a> are building client
-      sites with CloudCannon, we wanted to help out by providing the foundations
-      for Astro components that output static HTML and CSS, for the fastest
-      delivery possible —&nbsp;all unbranded and adaptable for any project.
+      We are a small, focused team of designers, developers, and strategists
+      who care deeply about the web. Every project we take on gets our full
+      attention — no assembly lines, no junior handoffs.
     imageSource: /src/assets/images/component-docs/sunset.jpg
-    imageAlt: Sunset
+    imageAlt: Prism Studio at work
     imageAspectRatio: portrait
     buttonSections: []
     reverse: true
     colorScheme: inherit
     backgroundColor: base
     paddingVertical: 4xl
+  - _component: page-sections/features/feature-grid
+    eyebrow: Our Values
+    heading: The principles that guide everything we build
+    subtext: These are not just words on a wall — they shape every decision we make.
+    gap: xl
+    minItemWidth: 280
+    maxItemWidth: 360
+    features:
+      - title: Craft over shortcuts
+        description: >-
+          We write clean code, design with intention, and refuse to ship anything
+          we would not proudly put our name on.
+        iconName: cube
+        iconColor: purple
+      - title: Performance is non-negotiable
+        description: >-
+          Every millisecond matters. We build static-first, optimize aggressively,
+          and measure everything.
+        iconName: bolt
+        iconColor: cyan
+      - title: Clarity in everything
+        description: >-
+          From our communication to our code, we believe simplicity is the
+          ultimate sophistication.
+        iconName: eye
+        iconColor: blue
+      - title: Partnership, not service
+        description: >-
+          We do not just take orders. We collaborate deeply to understand your
+          goals and push the work further than you imagined.
+        iconName: users
+        iconColor: green
+    colorScheme: inherit
+    backgroundColor: surface
+    align: center
   - _component: page-sections/info-blocks/faq-section
     heading: Frequently asked questions
     headingLevel: h2
@@ -31,209 +64,73 @@ pageSections:
     singleOpen: true
     openFirst: false
     items:
-      - title: How does the Component Starter work?
+      - title: What kind of projects do you take on?
         contentSections:
           - _component: building-blocks/core-elements/text
             text: >-
-              We give you [straightforward building blocks](/component-docs/)
-              without hiding anything behind layers of abstraction. You see
-              everything that's happening, and stay in control.
-      - title: What's included in the Component Starter?
+              We specialize in brand-new websites, complete redesigns, and
+              performance overhauls. We work best with teams who value quality
+              and want a true creative partner.
+      - title: What technologies do you use?
         contentSections:
           - _component: building-blocks/core-elements/text
             text: >-
-              Lean HTML, CSS, and small touches of vanilla JavaScript. No dead
-              weight, no surprise dependencies, just the pieces you actually
-              need to build great pages.
-      - title: How is the Component Starter so fast?
+              We build primarily with Astro, modern CSS, and vanilla JavaScript.
+              For content management, we integrate with CloudCannon for the best
+              visual editing experience available.
+      - title: How long does a typical project take?
         contentSections:
           - _component: building-blocks/core-elements/text
             text: >-
-              Performance comes from keeping things lightweight. The framework
-              handles image optimization and responsive patterns so your site
-              stays quick without extra work.
-      - title: Can I customize the Component Starter?
+              Most projects span 6-12 weeks from kickoff to launch, depending on
+              scope. We move fast without cutting corners.
+      - title: Do you work with startups or enterprises?
         contentSections:
           - _component: building-blocks/core-elements/text
             text: >-
-              Every part of the Component Starter is meant to be opened, read,
-              and edited. You shape it to fit your project instead of working
-              around someone else's opinions. Start by [browsing the
-              components](/component-docs/) to see how they're set up!
+              Both! We have worked with early-stage startups launching their
+              first product, and established companies reimagining their digital
+              presence. What matters most is shared ambition.
     maxContentWidth: xl
     paddingHorizontal: xl
     paddingVertical: 4xl
     colorScheme: inherit
     backgroundColor: none
-  - _component: page-sections/builders/custom-section
-    label: ''
-    contentSections:
-      - _component: building-blocks/core-elements/spacer
-        size: md
-      - _component: building-blocks/core-elements/heading
-        text: Mix and match your components
-        level: h2
-        size: default
-        alignX: center
-        iconName:
-        iconPosition: before
-      - _component: building-blocks/core-elements/text
-        text: >-
-          With custom sections, you can create components for almost any use
-          case.
-        alignX: center
-    maxContentWidth: 2xl
-    paddingHorizontal: md
-    paddingVertical: md
-    colorScheme: dark
-    backgroundColor: surface
-    backgroundImage:
-      source: ''
-      alt: ''
-      positionVertical: top
-      positionHorizontal: center
-    rounded: false
-  - _component: page-sections/features/feature-slider
-    slides:
-      - eyebrow: First slide demonstration
-        title: Welcome to the carousel component
-        description: >-
-          This initial slide introduces visitors to the rotating content
-          display. You'll notice how the text hierarchy works with the eyebrow,
-          headline, and body copy creating clear visual distinction. The
-          component is designed to guide users through multiple messages without
-          overwhelming the page.
-        imageSource: /src/assets/images/component-docs/quiet-street.jpg
-        imageAlt: High Performance
-        minSplitWidth: 0
-      - eyebrow: Content transition example
-        title: Seamless navigation between slides
-        description: >-
-          As you move to the second position, observe how the previous content
-          gracefully exits while this new information appears. The navigation
-          controls below allow users to move at their own pace. This slide
-          exists purely to demonstrate the component's ability to handle
-          sequential content delivery.
-        imageSource: /src/assets/images/component-docs/sheep.jpg
-        imageAlt: Easy Maintenance
-        minSplitWidth: 0
-      - eyebrow: Third position showcase
-        title: Maintaining consistent formatting
-        description: >-
-          By the third slide, the pattern becomes clear. Each rotation maintains
-          the same structural hierarchy and spacing, ensuring visual coherence
-          throughout the carousel. This consistency helps users understand what
-          to expect as they progress through the available content.
-        imageSource: /src/assets/images/component-docs/castle.jpg
-        imageAlt: Move Faster
-        minSplitWidth: 300
-      - eyebrow: Final slide
-        title: Completing the carousel loop
-        description: >-
-          This fourth and final slide demonstrates how the component handles the
-          end of its sequence. Users can either cycle back to the beginning or
-          pause here to absorb the information. The carousel has now
-          successfully shown its capacity to present multiple content blocks in
-          a compact, navigable format.
-        imageSource: /src/assets/images/component-docs/dunedin-cliff.jpg
-        imageAlt: Long-Term Stability
-        minSplitWidth: 0
-    colorScheme: dark
-    backgroundColor: surface
-    eyebrow: Why Carousel
-    heading: Why this approach works
-    subtext: Highlight the core reasons in a simple, swipeable format.
-    paddingVertical: 4xl
-  - _component: page-sections/people/testimonial-section
-    text: >-
-      This testimonial component has completely changed the way I present my
-      quotations on Astro sites. I couldn't be happier with the results.
-    authorName: John Convincingname
-    authorDescription: Founder
-    authorImage: /src/assets/images/component-docs/profile.jpg
-    alignX: center
-    maxContentWidth: xl
-    paddingHorizontal: xl
-    paddingVertical: 2xl
-    colorScheme: dark
-    backgroundColor: surface
   - _component: page-sections/people/team-grid
-    eyebrow: Our Team
-    heading: Meet the people
-    subtext: We're a group of stock photography faces that fill out this team grid.
-    teamMembers:
-      - name: Alex Smith
-        role: Lead Developer
-        bio: >-
-          As a fictional representation of a real employee, I exist solely to
-          demonstrate how profile information appears in this layout. My
-          headshot is perfectly lit, and my description maintains the ideal
-          length for this component.
-        imageSource: /src/assets/images/component-docs/profile1.jpg
-        imageAlt: Alex Smith, CEO
-      - name: Tom Rodriguez
-        role: Chief Technology Officer
-        bio: >-
-          I'm here to show how multiple team members look when displayed
-          together. My expertise includes being professionally photographed and
-          having exactly two sentences of biographical text.
-        imageSource: /src/assets/images/component-docs/profile2.jpg
-        imageAlt: Tom Rodriguez, CTO
-      - name: Helen Kim
-        role: Head of Design
-        bio: >-
-          I demonstrate how the component handles a third profile entry. My
-          carefully crafted placeholder text ensures the layout remains
-          consistent, regardless of whether you're viewing on a tablet or
-          desktop display.
-        imageSource: /src/assets/images/component-docs/profile3.jpg
-        imageAlt: Helen Kim, Head of Design
-      - name: Emily Watson
-        role: Director of Operations
-        bio: >-
-          I round out the team grid to demonstrate how the layout adapts to a
-          fourth member. My presence here confirms that the component scales
-          appropriately, maintaining visual balance across different screen
-          sizes.
-        imageSource: /src/assets/images/component-docs/profile4.jpg
-        imageAlt: Emily Watson, Director of Operations
-    colorScheme: dark
+    heading: The team behind the prism
+    headingLevel: h2
+    headingSize: lg
+    gap: xl
+    members:
+      - name: Alex Morgan
+        title: Creative Director
+        image: /src/assets/images/component-docs/profile1.jpg
+      - name: Jordan Lee
+        title: Lead Engineer
+        image: /src/assets/images/component-docs/profile2.jpg
+      - name: Sam Rivera
+        title: Design Lead
+        image: /src/assets/images/component-docs/profile3.jpg
+      - name: Casey Wu
+        title: Strategy Director
+        image: /src/assets/images/component-docs/profile4.jpg
+    colorScheme: inherit
     backgroundColor: surface
-    paddingVertical: 2xl
-  - _component: page-sections/ctas/cta-form
-    heading: Form and function!
+  - _component: page-sections/ctas/cta-center
+    heading: Let us build something remarkable together
     subtext: >-
-      This is a sample form component, so it's not wired up with a target inbox
-      yet, but it's all ready to <a
-      href="https://cloudcannon.com/documentation/articles/getting-started-with-forms-on-cloudcannon/"
-      target="_blank" rel="noopener">configure with CloudCannon forms</a>.
-    formAction: ./
-    formBlocks:
-      - _component: building-blocks/forms/input
-        label: Name
-        name: name
-        type: text
-        required: true
-      - _component: building-blocks/forms/input
-        label: Email
-        name: email
-        type: email
-        required: true
-      - _component: building-blocks/forms/textarea
-        label: Message
-        name: message
-        required: true
-      - _component: building-blocks/forms/submit
-        text: Send message
+      Whether you have a clear vision or just a spark of an idea, we would love to
+      hear from you. Every great project starts with a conversation.
+    buttonSections:
+      - _component: building-blocks/core-elements/button
+        text: Start a Conversation
+        hideText: false
+        link: /
+        iconName: ''
+        iconPosition: before
         variant: primary
         size: md
-        iconPosition: before
-        hideText: false
-        disabled: false
-    imageSource: /src/assets/images/component-docs/castle.jpg
-    imageAlt: Get in touch
-    reverse: false
     colorScheme: dark
     backgroundColor: surface
-    paddingVertical: 4xl
+    rounded: false
 ---

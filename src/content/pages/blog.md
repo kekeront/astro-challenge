@@ -1,17 +1,16 @@
 ---
 _schema: default
-title: Blog
+title: Journal
 description: >-
-  Read our latest articles and insights on web development, design, and
-  technology.
+  Insights on design, development, and the craft of building exceptional digital
+  experiences — from the Prism Studio team.
 pageSections:
   - _component: page-sections/heroes/hero-center
-    eyebrow: ''
-    heading: All posts
+    eyebrow: The Prism Journal
+    heading: Thoughts on craft and code
     subtext: >-
-      This paginated blog index displays a grid of article cards, each waiting
-      to be populated with genuine posts once your content strategy moves beyond
-      placeholder text.
+      Deep dives into design systems, performance optimization, typography, and
+      the creative process behind our work.
     buttonSections: []
     colorScheme: inherit
     backgroundColor: base

@@ -1,27 +1,28 @@
 ---
 _schema: default
-title: Astro Component Starter
-description: Build fast, customizable Astro sites with a modern component starter that is easy to edit and maintain.
+title: Prism Studio
+description: We design and build digital experiences that refract your brand into something extraordinary.
 pageSections:
   - _component: page-sections/heroes/hero-center
-    eyebrow:
-    heading: The Astro Component Starter for building any site
+    eyebrow: Digital Design Studio
+    heading: We refract brands into extraordinary experiences
     subtext: >-
-      Built on web fundamentals. Easy to customize, fast to use, and simple to
-      maintain.
+      Prism Studio is a creative digital agency that transforms bold ideas into
+      immersive web experiences. We blend strategy, design, and engineering
+      into work that moves people.
     buttonSections:
       - _component: building-blocks/core-elements/button
-        text: Explore Components
+        text: See Our Work
         hideText: false
-        link: /component-docs/
+        link: /why/
         iconName: ''
         iconPosition: before
         variant: primary
         size: md
       - _component: building-blocks/core-elements/button
-        text: View in GitHub
+        text: Read the Journal
         hideText: false
-        link: https://github.com/CloudCannon/astro-component-starter
+        link: /blog/
         iconName: ''
         iconPosition: before
         variant: secondary
@@ -29,127 +30,158 @@ pageSections:
     colorScheme: inherit
     backgroundColor: base
   - _component: page-sections/features/feature-split
-    eyebrow: Built for Astro
-    heading: Fast, modern, and easy to work with
+    eyebrow: What We Do
+    heading: Strategy that drives design. Design that drives results.
     subtext: >-
-      The Component Starter takes full advantage of Astro's zero-JS-by-default
-      approach. You get fast pages, simple routing, and a component system that
-      stays easy to use as your site grows.
-    buttonSections: []
-    imageSource: /src/assets/images/component-docs/website-feature.svg
-    imageAlt: Website Feature
+      We don't just make things look good — we make them work. Every project starts
+      with a clear strategy, then gets shaped through thoughtful design and precise
+      engineering. The result is digital work that performs as beautifully as it looks.
+    buttonSections:
+      - _component: building-blocks/core-elements/button
+        text: Our Approach
+        hideText: false
+        link: /why/
+        iconName: arrow-right
+        iconPosition: after
+        variant: tertiary
+        size: md
+    imageSource: /src/assets/images/component-docs/sunset.jpg
+    imageAlt: Creative design process
     imageAspectRatio: none
-    imageRounded: false
+    imageRounded: true
     reverse: false
     colorScheme: inherit
     backgroundColor: base
   - _component: page-sections/features/feature-split
-    eyebrow: CloudCannon Ready
-    heading: Easy visual editing
+    eyebrow: Our Craft
+    heading: Built on web fundamentals. Powered by modern tools.
     subtext: >-
-      Every component is built to work seamlessly in CloudCannon's Visual
-      Editor. Developers can create and style custom Page Sections with Astro.
-      Editors can click, change, and rearrange content right on the page without
-      touching the code or guessing where anything lives.
+      We believe in the power of the native web. Semantic HTML, lean CSS, and
+      purposeful JavaScript — layered with modern frameworks like Astro for
+      blazing-fast delivery. No bloat, no waste, just performance.
     buttonSections: []
-    imageSource: /src/assets/images/component-docs/website-split.svg
-    imageAlt: Website Split
+    imageSource: /src/assets/images/component-docs/castle.jpg
+    imageAlt: Architectural precision
     imageAspectRatio: none
-    imageRounded: false
+    imageRounded: true
     reverse: true
     colorScheme: inherit
     backgroundColor:
     paddingVertical: lg
-  - _component: page-sections/features/feature-split
-    eyebrow: Performance
-    heading: Fast by architecture, not by accident
-    subtext: >-
-      Your components render to static HTML, keeping bundles lean and pages
-      instant. Your users get instant page loads. You get a modern developer
-      experience.
-    buttonSections: []
-    imageSource: /src/assets/images/component-docs/website-hero.svg
-    imageAlt: Website Hero
-    imageAspectRatio: none
-    imageRounded: false
-    reverse: false
-    colorScheme: inherit
-    backgroundColor: base
-  - _component: page-sections/features/feature-split
-    eyebrow: Documentation
-    heading: Every component, clearly documented
-    subtext: >-
-      Each component comes with straightforward docs, real examples, full
-      descriptions of every property, and clear guidance without having to dig
-      through source files.
-    buttonSections: []
-    imageSource: /src/assets/images/component-docs/website-documented.svg
-    imageAlt: Website Hero
-    imageAspectRatio: none
-    imageRounded: false
-    reverse: true
-    colorScheme: inherit
-    backgroundColor: base
   - _component: page-sections/features/feature-grid
-    eyebrow: Principles
-    heading: Built for real-world web projects
-    subtext: No trends. No noise. Just reliability.
+    eyebrow: Capabilities
+    heading: Full-spectrum creative services
+    subtext: From concept to launch, we cover every angle.
     gap: xl
     minItemWidth: 280
     maxItemWidth: 360
     features:
-      - title: Web fundamentals
+      - title: Brand Identity
         description: >-
-          Semantic HTML. Lean CSS. JavaScript only when it's needed. The stack
-          is boring by design, and that’s exactly why it works.
-        iconName: cube
+          We craft visual identities that feel authentic, from logos and color
+          systems to typography and motion language.
+        iconName: swatch
+        iconColor: purple
+      - title: Web Design
+        description: >-
+          Pixel-perfect layouts, fluid interactions, and responsive experiences
+          that work beautifully on every device.
+        iconName: paint-brush
+        iconColor: cyan
+      - title: Development
+        description: >-
+          Clean, performant code built with modern tools. Static-first
+          architecture for instant page loads.
+        iconName: code-bracket
         iconColor: blue
-      - title: Built for speed
+      - title: Content Strategy
         description: >-
-          Static-rendered, minimal payloads, zero waste. Built to be extremely
-          fast from the first byte.
+          We help brands find their voice and structure content that connects
+          with audiences and drives engagement.
+        iconName: document-text
+        iconColor: green
+      - title: Motion Design
+        description: >-
+          Purposeful animations and micro-interactions that guide attention and
+          bring interfaces to life.
+        iconName: sparkles
+        iconColor: pink
+      - title: Performance
+        description: >-
+          Every byte counts. We optimize images, fonts, and scripts to deliver
+          sub-second load times globally.
         iconName: bolt
         iconColor: yellow
-      - title: Everything just fits
-        description: >-
-          Simple, predictable components that play nice together. Build bigger
-          pieces without creating a maintenance mess.
-        iconName: puzzle-piece
-        iconColor: green
-      - title: Controlled editing
-        description: >-
-          Enough freedom for editors to move fast. Enough structure for
-          developers to sleep at night.
-        iconName: pencil
-        iconColor: purple
-      - title: Adaptable
-        description: >-
-          Purposefully plain styling. The whole component starter adapts to your
-          designs without a fight.
-        iconName: paint-brush
-        iconColor: pink
     colorScheme: inherit
     backgroundColor: surface
     align: center
-  - _component: page-sections/ctas/cta-center
-    heading: Ready to start building?
+  - _component: page-sections/people/testimonial-section
+    heading: What our clients say
+    headingLevel: h2
+    headingSize: lg
+    testimonials:
+      - quote: >-
+          Prism Studio transformed our entire digital presence. The attention to
+          detail and performance was unlike anything we have experienced before.
+        authorName: Sarah Chen
+        authorDescription: CEO, Horizon Labs
+        authorImage: /src/assets/images/component-docs/profile1.jpg
+      - quote: >-
+          Working with Prism felt like having a true extension of our team. They
+          understood our brand deeply and delivered beyond expectations.
+        authorName: Marcus Rivera
+        authorDescription: Head of Marketing, Nova Systems
+        authorImage: /src/assets/images/component-docs/profile2.jpg
+      - quote: >-
+          The site they built loads in under a second and our conversion rate
+          jumped 40 percent. Pure craftsmanship.
+        authorName: Aisha Patel
+        authorDescription: Founder, Meridian Health
+        authorImage: /src/assets/images/component-docs/profile3.jpg
+    colorScheme: inherit
+    backgroundColor: base
+  - _component: page-sections/features/feature-split
+    eyebrow: Recent Work
+    heading: Crafting digital experiences for ambitious brands
     subtext: >-
-      Browse the complete Astro Component Starter and see live examples of every
-      component in action. All components are ready to use in CloudCannon and
-      are fully customizable.
+      From startups to established enterprises, we help brands stand out in
+      crowded markets. Each project is a custom collaboration — no templates,
+      no shortcuts.
     buttonSections:
       - _component: building-blocks/core-elements/button
-        text: Explore Components
+        text: View Case Studies
         hideText: false
-        link: /component-docs/
+        link: /blog/
+        iconName: arrow-right
+        iconPosition: after
+        variant: primary
+        size: md
+    imageSource: /src/assets/images/component-docs/quiet-street.jpg
+    imageAlt: Our studio work
+    imageAspectRatio: none
+    imageRounded: true
+    reverse: false
+    colorScheme: inherit
+    backgroundColor: base
+  - _component: page-sections/ctas/cta-center
+    heading: Ready to refract your brand?
+    subtext: >-
+      Let us create something extraordinary together. Whether you are launching a new
+      product, reimagining your brand, or building a digital experience from scratch —
+      we are here to make it happen.
+    buttonSections:
+      - _component: building-blocks/core-elements/button
+        text: Start a Project
+        hideText: false
+        link: /why/
         iconName: ''
         iconPosition: before
         variant: primary
         size: md
       - _component: building-blocks/core-elements/button
-        text: View in GitHub
+        text: Read the Journal
         hideText: false
-        link: https://github.com/CloudCannon/astro-component-starter
+        link: /blog/
         iconName: ''
         iconPosition: before
         variant: tertiary

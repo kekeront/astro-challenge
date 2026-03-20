@@ -1,8 +1,8 @@
 {
-  "name": "Astro Component Starter",
-  "url": "https://example.com",
-  "description": "",
+  "name": "Prism Studio",
+  "url": "https://prism.studio",
+  "description": "We design and build digital experiences that refract your brand into something extraordinary.",
   "logoSource": "/images/logo.svg",
-  "titleFormat": "{title} | Astro Component Starter",
-  "twitterHandle": "@yourusername"
+  "titleFormat": "{title} | Prism Studio",
+  "twitterHandle": "@prismstudio"
 }

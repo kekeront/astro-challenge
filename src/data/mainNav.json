@@ -1,6 +1,6 @@
 {
   "logoSource": "/images/logo.svg",
-  "logoAlt": "Logo",
+  "logoAlt": "Prism Studio",
   "navData": [
     {
       "name": "Home",
@@ -8,12 +8,12 @@
       "children": []
     },
     {
-      "name": "Why",
+      "name": "About",
       "path": "/why/",
       "children": []
     },
     {
-      "name": "Blog",
+      "name": "Journal",
       "path": "/blog/",
       "children": []
     }

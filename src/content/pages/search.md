@@ -7,9 +7,8 @@ pageSections:
     eyebrow:
     heading: Search
     subtext: >-
-      Everything on your site is just one search away. (Free static search
-      courtesy of <a href="https://pagefind.app/" target="_blank"
-      rel="noopener">Pagefind</a> 💙)
+      Find anything across Prism Studio. Fast, static search powered by
+      <a href="https://pagefind.app/" target="_blank" rel="noopener">Pagefind</a>.
     buttonSections: []
     colorScheme: inherit
     backgroundColor: base

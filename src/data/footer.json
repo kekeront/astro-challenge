@@ -1,17 +1,17 @@
 {
   "logoSource": "/images/logo.svg",
-  "logoAlt": "Logo",
+  "logoAlt": "Prism Studio",
   "links": [
     {
       "name": "Home",
       "path": "/"
     },
     {
-      "name": "Why",
+      "name": "About",
       "path": "/why/"
     },
     {
-      "name": "Blog",
+      "name": "Journal",
       "path": "/blog/"
     }
   ],
@@ -29,5 +29,5 @@
       "link": "https://linkedin.com"
     }
   ],
-  "footerText": "© 2026 All rights reserved."
+  "footerText": "© 2026 Prism Studio. Crafting digital experiences."
 }

@@ -1,40 +1,42 @@
 ---
 _schema: default
-title: A Better Starting Point for Modern Websites
-description: Most starters chase features. We chased clarity.
+title: Why We Believe in Static-First Design
+description: The web has become bloated. Here is how we are fighting back with static-first architecture.
 date: 2025-10-15T00:00:00Z
-author: Alex Smith
+author: Alex Morgan
 image: /src/assets/images/component-docs/castle.jpg
 tags:
   - Design
-  - Development
+  - Philosophy
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The modern web has a weight problem. Average page sizes have ballooned past 2MB, and most of that weight serves no one — not the user, not the brand, not the business.
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+At Prism Studio, we take a different approach. We call it **static-first design** — and it starts with a simple question: *what can this page be without JavaScript?*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+The answer, more often than not, is: nearly everything.
 
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+## The case for going lean
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+When you build with semantic HTML and purposeful CSS, you get pages that load in under a second. You get experiences that work on every device, every connection speed, every browser. You get accessibility baked in from the start.
 
-Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+That is not a compromise — it is a superpower.
 
-<TestimonialSection
-  authorDescription="Lead Developer, Startup Co"
-  authorImage="/src/assets/images/component-docs/profile2.jpg"
-  authorName="Sarah Chen"
-  paddingVertical="sm"
-  class="wide"
-  text="This starter gave us exactly what we needed: a solid foundation without the bloat. We were
-  shipping features within hours instead of spending days on setup. The codebase is so clear that
-  new team members can contribute immediately."
-/>
+Our stack of choice is Astro, which renders everything to static HTML by default. When we need interactivity, we add it surgically. A carousel here. A form validation there. Never a 200KB framework for a toggle button.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+## What this means for our clients
 
-Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Faster sites convert better. This is not opinion — it is data. Every 100ms of latency costs conversions. When we deliver sites that load in 400ms instead of 4 seconds, the business impact is immediate and measurable.
 
-<CtaCenter buttonSections={[{ _component: "building-blocks/core-elements/button", text: "Get Started", variant: "primary", size: "md", link: "/" }]} colorScheme="dark" backgroundColor="base" heading="Ready to build something better?" subtext="Start with a foundation that gets out of your way." rounded={true} class="wide" style="margin-top: var(--spacing-xl);" />
+But performance is just the beginning. Static-first sites are also:
+
+- **More secure** — no server-side vulnerabilities
+- **More reliable** — CDN-hosted, globally distributed
+- **More maintainable** — less code, fewer moving parts
+- **More sustainable** — lower energy consumption per pageview
+
+## The craft behind the speed
+
+Going fast does not mean cutting corners. Our static sites feature rich animations, fluid layouts, and careful typographic details. We just achieve them with CSS instead of JavaScript. With custom properties instead of runtime theming. With native browser APIs instead of polyfill layers.
+
+The result is work that feels premium and loads instantly. That is the Prism Studio promise.

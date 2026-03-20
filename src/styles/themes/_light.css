@@ -2,38 +2,38 @@
 [data-theme="light"] {
   color-scheme: light;
 
-  --color-brand: var(--gray-12);
-  --color-brand-muted: var(--gray-9);
-  --color-brand-subtle: var(--gray-7);
-  --color-brand-on: var(--gray-0);
+  --color-brand: var(--purple-dark);
+  --color-brand-muted: #6d28d9;
+  --color-brand-subtle: #8b5cf6;
+  --color-brand-on: #ffffff;
 
-  --color-text: var(--gray-10);
-  --color-text-strong: var(--gray-12);
-  --color-text-muted: var(--gray-8);
-  --color-text-on-muted: var(--gray-12);
-  --color-text-on-brand: var(--gray-0);
-  --color-text-inverse: var(--gray-0);
-  --color-link: blue;
-  --color-link-hover: darkblue;
+  --color-text: #1a0a33;
+  --color-text-strong: #080212;
+  --color-text-muted: #574170;
+  --color-text-on-muted: #080212;
+  --color-text-on-brand: #ffffff;
+  --color-text-inverse: #faf5ff;
+  --color-link: #7c3aed;
+  --color-link-hover: #6d28d9;
 
-  --color-bg: var(--gray-0);
-  --color-bg-surface: var(--gray-1);
-  --color-bg-muted: var(--gray-2);
-  --color-bg-accent: #d5fdff;
-  --color-bg-highlight: #fff9d6;
+  --color-bg: #faf5ff;
+  --color-bg-surface: #f0e7ff;
+  --color-bg-muted: #ede9fe;
+  --color-bg-accent: #cffafe;
+  --color-bg-highlight: #fef3c7;
   --color-bg-brand: var(--color-brand);
   --color-bg-brand-muted: var(--color-brand-muted);
-  --color-bg-inverse: var(--gray-12);
+  --color-bg-inverse: #080212;
 
-  --color-border: var(--gray-4);
-  --color-border-inputs: var(--gray-7);
-  --color-border-strong: var(--gray-10);
-  --color-border-subtle: var(--gray-1);
+  --color-border: #c4b5d6;
+  --color-border-inputs: #8b5cf6;
+  --color-border-strong: #6d28d9;
+  --color-border-subtle: #f0e7ff;
 
-  --color-state-hover: rgba(0, 0, 0, 0.04);
-  --color-state-active: rgba(0, 0, 0, 0.08);
-  --color-overlay: rgba(0, 0, 0, 0.5);
+  --color-state-hover: rgba(124, 58, 237, 0.06);
+  --color-state-active: rgba(124, 58, 237, 0.12);
+  --color-overlay: rgba(8, 2, 18, 0.5);
 
-  --color-focus-ring: rgba(0, 87, 255, 0.4);
-  --color-error: #f00;
+  --color-focus-ring: rgba(124, 58, 237, 0.4);
+  --color-error: #f43f5e;
 }

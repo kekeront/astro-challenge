@@ -1,44 +1,39 @@
 ---
-title: "Designing Components That Don't Blow Up Over Time"
-description: "Simple components survive redesigns. Complex ones don't."
-date: 2025-10-29
-author: "Helen Kim"
-image: "/src/assets/images/component-docs/quiet-street.jpg"
-tags: ["Components", "Design Systems"]
+_schema: default
+title: Typography That Commands Attention
+description: The role of type in creating memorable digital experiences — and why we obsess over every detail.
+date: 2025-10-29T00:00:00Z
+author: Jordan Lee
+image: /src/assets/images/component-docs/quiet-street.jpg
+tags:
+  - Typography
+  - Design
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Typography is the voice of design. It can whisper or shout, guide or overwhelm. At Prism Studio, we believe that great typography is what separates good websites from unforgettable ones.
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+## Choosing the right typeface
 
-Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis.
+We approach typeface selection the way a casting director approaches a film — every font must serve the story. For Prism Studio itself, we chose Space Grotesk for headlines and Inter for body text.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
+Space Grotesk brings geometric precision with enough personality to feel distinctive. Inter provides exceptional readability at any size with a generous x-height and open apertures.
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Together, they create a typographic hierarchy that feels both modern and approachable.
 
-<TestimonialSection authorDescription="Design System Lead, Enterprise Inc" authorImage="/src/assets/images/component-docs/profile3.jpg" authorName="Michael Torres" paddingVertical="sm" text="Small components changed everything for our team. We can rearrange layouts without breaking functionality, and editors love the focused controls. It's the most maintainable system we've ever worked with." class="wide" />
+## The system behind the type
 
-Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+Random font sizes create visual chaos. We use a carefully tuned modular scale that ensures every heading, body text, and caption relates harmoniously to every other element.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+Our scale is defined as CSS custom properties, making it trivial to maintain consistency across components and easy for editors to work within defined guardrails.
 
-Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+## Performance and type
 
-Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+Custom fonts are often the biggest performance bottleneck on a webpage. We address this with font-display swap, subsetting, and preloading critical fonts in the document head.
 
-<CtaSplit
-  buttonSections={[
-    { _component: "building-blocks/core-elements/button", text: "Browse Components", variant: "primary", size: "md", link: "/component-docs/" },
-    { _component: "building-blocks/core-elements/button", text: "View Examples", variant: "secondary", size: "md", link: "/component-docs/guidelines" }
-  ]}
-  heading="Build with small, focused components"
-  imageAlt="Component system illustration."
-  imageSource="/src/assets/images/component-docs/castle.jpg"
-  subtext="Components that do one thing well."
-  class="wide"
-  colorScheme="dark"
-  backgroundColor="surface"
-  style="margin-top: var(--spacing-xl);"
-  rounded={true}
-/>
+The goal is zero layout shift and near-instant text rendering — so the beautiful typography we design is the first thing users actually see, not the last.
+
+## Responsive typography
+
+Great type adapts to its container. We use fluid scaling that smoothly transitions between mobile and desktop sizes, avoiding harsh breakpoint jumps.
+
+The result: text that always feels perfectly sized, whether on a 320px phone screen or a 2560px ultrawide display.

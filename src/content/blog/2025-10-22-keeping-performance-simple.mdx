@@ -1,28 +1,37 @@
 ---
-title: "Performance Isn't Magic—It's Restraint"
-description: "The easiest way to speed is to stop loading junk."
-date: 2025-10-22
-author: "Tom Rodriguez"
-image: "/src/assets/images/component-docs/sunset.jpg"
-tags: ["Performance", "Optimization"]
+_schema: default
+title: The Art of Color Systems in Digital Design
+description: How we approach color at Prism Studio — from brand palettes to accessible, systematic design tokens.
+date: 2025-10-22T00:00:00Z
+author: Sam Rivera
+image: /src/assets/images/component-docs/sunset.jpg
+tags:
+  - Design
+  - CSS
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Color is the first thing people notice and the last thing they forget. At Prism Studio, we treat color not as decoration but as architecture — a structural element that guides attention, creates hierarchy, and communicates emotion.
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+## Building a color system
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Every Prism project starts with a color audit. We analyze the brand's existing palette, test it against accessibility standards, and map it into a systematic scale.
 
-Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+Our approach uses CSS custom properties organized into three layers:
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+**Primitive colors** — The raw palette values. These rarely appear in component code directly.
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Semantic tokens** — Meaningful names like `--color-text`, `--color-bg-surface`, `--color-brand`. These are what components actually reference.
 
-<Image source="/src/assets/images/component-docs/quiet-street.jpg" rounded={true} aspectRatio="widescreen" alt="Performance optimization illustration" />
+**Theme assignments** — The bridge between primitives and semantics, allowing the same component to render in light mode, dark mode, or any custom theme.
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+## Why systems matter
 
-Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Without a color system, design drift is inevitable. Different pages start using slightly different shades. Accessibility gets inconsistent. Dark mode becomes a nightmare.
 
-<CtaCenter buttonSections={[{ _component: "building-blocks/core-elements/button", text: "See Performance", variant: "primary", size: "md", link: "/" }]} colorScheme="dark" backgroundColor="base" heading="Build fast by default" subtext="Performance isn't an afterthought—it's built in." rounded={true} class="wide" style="margin-top: var(--spacing-xl);" />
+With a well-structured system, every color decision is intentional and every theme change is a variable swap — not a redesign.
+
+## Dark mode is not an afterthought
+
+We design for both light and dark themes from day one. This means choosing colors that maintain sufficient contrast ratios in both contexts, and testing every component in both modes before shipping.
+
+The result is a cohesive experience regardless of user preference — and a codebase that makes theme customization trivial.
